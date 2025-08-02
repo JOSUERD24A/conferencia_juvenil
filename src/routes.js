@@ -37,33 +37,15 @@ Coded by www.creative-tim.com
 
 // Soft UI Dashboard React layouts
 import Dashboard from "layouts/dashboard";
-import Tables from "layouts/tables";
-import Billing from "layouts/billing";
-import VirtualReality from "layouts/virtual-reality";
-import RTL from "layouts/rtl";
-import Profile from "layouts/profile";
-import SignIn from "layouts/authentication/sign-in";
-import SignUp from "layouts/authentication/sign-up";
-import Usuarios from "layouts/usuarios";
 import Lideres from "layouts/lideres";
-import Reportes  from "layouts/reportes";
-import CerrarSesion from "layouts/dashboard/cerrarSesion";
+import Reportes from "layouts/reportes";
+import Tables from "layouts/tables";
+import Usuarios from "layouts/usuarios";
 
 // Soft UI Dashboard React icons
-import Shop from "examples/Icons/Shop";
 import Office from "examples/Icons/Office";
-import Settings from "examples/Icons/Settings";
-import Document from "examples/Icons/Document";
-import SpaceShip from "examples/Icons/SpaceShip";
-import CustomerSupport from "examples/Icons/CustomerSupport";
-import CreditCard from "examples/Icons/CreditCard";
-import Cube from "examples/Icons/Cube";
-import PeopleIcon from "@mui/icons-material/People";
-import { FaChair, FaChartBar, FaUser, FaUsers } from 'react-icons/fa';
-import { FaSignOutAlt } from "react-icons/fa";
-
-
-
+import Shop from "examples/Icons/Shop";
+import { FaChartBar, FaSignOutAlt, FaUser, FaUsers } from 'react-icons/fa';
 
 const routes = [
   {
@@ -117,12 +99,10 @@ const routes = [
   type: "collapse",
   name: "Cerrar Sesión",
   key: "cerrar-sesion",
-  route: "/cerrar-sesion",
   icon: <FaSignOutAlt size="12px" />,
-  component: <CerrarSesion />,
+  action: "logout", // Marcador especial
   noCollapse: true,
 },
-
 // ...
 
 
