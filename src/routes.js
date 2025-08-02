@@ -37,16 +37,15 @@ Coded by www.creative-tim.com
 
 // Soft UI Dashboard React layouts
 import Dashboard from "layouts/dashboard";
+import CerrarSesion from "layouts/dashboard/cerrarSesion";
 import Lideres from "layouts/lideres";
 import Reportes from "layouts/reportes";
 import Tables from "layouts/tables";
 import Usuarios from "layouts/usuarios";
-
 // Soft UI Dashboard React icons
 import Office from "examples/Icons/Office";
 import Shop from "examples/Icons/Shop";
 import { FaChartBar, FaSignOutAlt, FaUser, FaUsers } from 'react-icons/fa';
-
 const routes = [
   {
     type: "collapse",
@@ -99,8 +98,9 @@ const routes = [
   type: "collapse",
   name: "Cerrar Sesión",
   key: "cerrar-sesion",
+  route: "/cerrar-sesion",
   icon: <FaSignOutAlt size="12px" />,
-  action: "logout", // Marcador especial
+  component: <CerrarSesion />,
   noCollapse: true,
 },
 // ...
