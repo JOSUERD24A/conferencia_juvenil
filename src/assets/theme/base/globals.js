@@ -36,6 +36,7 @@ const globals = {
   "a.link:hover, .link:hover, a.link:focus, .link:focus": {
     color: `${info.main} !important`,
   },
+  
 };
 
 export default globals;

@@ -42,6 +42,7 @@ import Lideres from "layouts/lideres";
 import Reportes from "layouts/reportes";
 import Tables from "layouts/tables";
 import Usuarios from "layouts/usuarios";
+
 // Soft UI Dashboard React icons
 import Office from "examples/Icons/Office";
 import Shop from "examples/Icons/Shop";

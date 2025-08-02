@@ -36,8 +36,8 @@ const CerrarSesion = () => {
   }, [navigate]);
 
   return (
-    <div style={{ 
-      padding: "20px", 
+    <div style={{
+      padding: "20px",
       textAlign: "center",
       minHeight: "200px",
       display: "flex",
